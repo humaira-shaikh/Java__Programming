@@ -6,10 +6,10 @@ class Ugly
 		while (num>1)
 		{
 		if (num%2==0)
-			num/=2;
+		    num/=2;
 
 		else if(num%3==0)
-              num/=3;
+                    num/=3;
 
 		else if(num%5==0)
 			num/=5;
@@ -23,7 +23,7 @@ class Ugly
 		}
 		else
 		{
-			System.out.println("It is beautiful Number");
+               System.out.println("It is beautiful Number");
 		}
 	}
 }
